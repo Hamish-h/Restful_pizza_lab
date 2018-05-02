@@ -2,13 +2,21 @@
 <html>
 <head>
   <title>Pizza Shop</title>
+    <link rel="stylesheet" type="text/css"
+    href="/style.css"></link>
 </head>
 <body>
-  <nav>
-    <ul>
+  <div id="fixedheader">
+    <h3>The CodeClan Pizza Parlour (BOGOF offers night and day) </h3>
+  </div>
+  <nav class="container">
+    <ul style="list-style-type:none">
       <li>
-        <a href="/pizza_orders">Pizza Orders</a>
+        <a href="/pizza_orders">All Pizza Orders</a>
       </li>
+      <li>
+        <a href="/pizza_orders/new">New Pizza Orders</a>
+      </li
     </ul>
   </nav>
   <%= yield %>
